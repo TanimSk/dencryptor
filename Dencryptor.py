@@ -44,7 +44,7 @@ def decrypt():
 
 ttk.Button(win, text="Browse", command=browser).grid(row=2, column=0, padx=5)
 ttk.Button(win, text="Encrypt", command=encrypt).grid(row=2, column=1, pady=5)
-ttk.Button(win, text="Dencrypt", command=decrypt).grid(row=2, column=2, pady=5)
+ttk.Button(win, text="Decrypt", command=decrypt).grid(row=2, column=2, pady=5)
 
 
 win.mainloop()
